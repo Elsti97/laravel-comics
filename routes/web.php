@@ -229,7 +229,7 @@ Route::get('/', function () {
         ],
     ];
 
-    return view('home', compact('comics'));
+    return view('home', compact('comic'));
 });
 
 Route::get('/comics', function () {
@@ -448,5 +448,5 @@ $comic = [
     ],
 ];
 
-return view('comics', compact('comics'));
+return view('comics', compact('comic'));
 });
