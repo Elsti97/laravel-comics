@@ -1,7 +1,7 @@
   <nav class="space-between">
     <img src="{{ asset('images/dc-logo.png') }}" alt="logo" class="logo-header">
     <div>
-        <ul>
+        <ul class="ul-header">
             <li><a href="#">CHARACTERS</a></li>
             <li><a href="#" class="active">COMICS</a></li>
             <li><a href="#">MOVIES</a></li>
@@ -16,5 +16,6 @@
     </div>
 </nav>
 
-<img src="{{asset('images/jumbotron.jpg')}}" alt="" class="jumbon">
+
+<div class="jumbon"></div>
 
