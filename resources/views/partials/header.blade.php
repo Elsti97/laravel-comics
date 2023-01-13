@@ -1,4 +1,4 @@
-  <nav class="space-between">
+  <nav class="space-between-header">
     <img src="{{ asset('images/dc-logo.png') }}" alt="logo" class="logo-header">
     <div>
         <ul class="ul-header">

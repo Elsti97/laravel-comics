@@ -1,9 +1,9 @@
 <div class="bg-footer">
-  <div class="width-80 space-between">
+  <div class="width-80-footer space-between-footer">
     <!-- LIST LEFT -->
-    <div class="flex">
-      <ul>
-        <h3>DC COMICS</h3>
+    <div class="flex-footer">
+      <ul class="ul-footer">
+        <h3 class="h3-footer">DC COMICS</h3>
         <li>Characters</li>
         <li>Comics</li>
         <li>Movies</li>
@@ -11,13 +11,13 @@
         <li>Games</li>
         <li>Videos</li>
         <li>News</li>
-        <h3>SHOP</h3>
+        <h3 class="h3-footer">SHOP</h3>
         <li>Shop DC</li>
         <li>Shop DC Collectibles</li>
       </ul>
 
-      <ul>
-        <h3>DC</h3>
+      <ul class="ul-footer">
+        <h3 class="h3-footer">DC</h3>
         <li>Terms Of Use</li>
         <li>Privacy policy (New)</li>
         <li>Ad Choices</li>
@@ -31,8 +31,8 @@
         <li>Contact Us</li>
       </ul>
 
-      <ul>
-        <h3>SITES</h3>
+      <ul class="ul-footer">
+        <h3 class="h3-footer">SITES</h3>
         <li>DC Magazine</li>
         <li>MAD Kids</li>
         <li>DC Kids</li>
@@ -46,5 +46,25 @@
 
     </div>
   </div>
+</div>
+
+<div class="bg-footer-down z-index">
+  <div class="width-80-b flex-center-b">
+    <!-- BUTTON SIGN IN -->
+    <div>
+      <button class="button-iscr">SIGN-UP NOW!</button>
+    </div>
+
+    <!-- SOCIALS -->
+    <div class="flex-center-b padding-l-1">
+      <h2>FOLLOW US</h2>
+      <img src="../images/footer-facebook.png" alt="logo facebook">
+      <img src="../images/footer-twitter.png" alt="logo twitter">
+      <img src="../images/footer-youtube.png" alt="logo youtube">
+      <img src="../images/footer-pinterest.png" alt="logo pinterest">
+      <img src="../images/footer-periscope.png" alt="logo periscope">
+    </div>
+  </div>
+  
 </div>
 
