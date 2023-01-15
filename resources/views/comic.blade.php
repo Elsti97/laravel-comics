@@ -42,13 +42,13 @@
         <div class="container d-flex width-80-main">
             <div class="d-flex flex-column pe-3">
                 <div class="border-bottom">
-                    <h3 class="mb-3">Talent</h3>
+                    <h3 class="mb-4">Talent</h3>
                 </div>
 
                 <div class="d-flex flex-column border-bottom">
                     <div class="d-flex py-2">
                         <div class="d-block col-3">Art by:</div>
-                        <div class="text-primary">
+                        <div class="text-primary font-small">
                             @foreach ($single_comic['artists'] as $element)
                                 {{ $element }}
                                 @if (!$loop->last)
@@ -62,7 +62,7 @@
                 <div class="d-flex flex-column border-bottom">
                     <div class="d-flex py-2">
                         <div class="d-block col-3">Written by:</div>
-                        <div class="col-8 text-primary">
+                        <div class="text-primary font-small">
                             @foreach ($single_comic['writers'] as $element)
                                 {{ $element }}
                                 @if (!$loop->last)
@@ -74,9 +74,9 @@
                 </div>
             </div>
 
-            <div class="col-6 d-flex flex-column">
+            <div class="col-6 d-flex flex-column ps-3">
                 <div class="border-bottom">
-                    <h3 class="mb-3">Specs</h3>
+                    <h3 class="mb-4">Specs</h3>
                 </div>
 
                 <div class="d-flex py-3 border-bottom">
